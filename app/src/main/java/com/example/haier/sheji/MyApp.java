@@ -54,6 +54,7 @@ public class MyApp extends Application {
         {
             requestQueue = Volley.newRequestQueue(getApplicationContext());
         }
+
         return requestQueue;
     }
 
